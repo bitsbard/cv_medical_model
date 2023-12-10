@@ -1,4 +1,4 @@
-**Deep Learning-based Pneumonia Detection from Chest X-Ray Images**
+# **Deep Learning-based Pneumonia Detection from Chest X-Ray Images**
 
 **Project Overview:**
 This project involves developing a deep learning model to classify chest X-ray images into two categories: normal and pneumonia. The model leverages the VGG16 architecture, a well-known convolutional neural network, to extract features from X-ray images and perform binary classification. The project utilizes TensorFlow and Keras, popular libraries in the Python ecosystem for deep learning tasks.
