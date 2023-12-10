@@ -1,10 +1,9 @@
 # **Deep Learning-based Pneumonia Detection from Chest X-Ray Images**
 
-**Project Overview:**
+### **Project Overview:**
 This project involves developing a deep learning model to classify chest X-ray images into two categories: normal and pneumonia. The model leverages the VGG16 architecture, a well-known convolutional neural network, to extract features from X-ray images and perform binary classification. The project utilizes TensorFlow and Keras, popular libraries in the Python ecosystem for deep learning tasks.
 
-**Technical Details:**
-
+### **Technical Details:**
 1. **Data Acquisition and Preparation:**
    - The dataset is stored in a ZIP file and is programmatically extracted into a specified directory for processing.
    - The dataset comprises chest X-ray images, organized into three directories: `train`, `val` (validation), and `test`, each containing subdirectories for two classes, 'Normal' and 'Pneumonia'.
@@ -30,5 +29,5 @@ This project involves developing a deep learning model to classify chest X-ray i
    - The project is implemented using Python, with dependencies including TensorFlow, Keras, NumPy, and Matplotlib.
    - It is implied that the project utilizes GPU acceleration for training, given the typical computational requirements of deep learning models, particularly those based on architectures like VGG16.
 
-**Conclusion:**
+### **Conclusion:**
 This project aims to harness the power of deep learning and convolutional neural networks to assist in the automated classification of chest X-ray images, potentially aiding healthcare professionals in the diagnosis of pneumonia. The use of a pre-trained model like VGG16 helps leverage existing knowledge in image processing, while custom layers and training routines ensure the model is fine-tuned for the specific task at hand. The model yielded 90% test accuracy on the given dataset, outperforming other recent approaches on the same task such as the CNN-XGboost model (https://pubmed.ncbi.nlm.nih.gov/38020497/). To further this research, integrating advanced techniques like attention mechanisms or exploring transfer learning with other architectures such as ResNet or Inception could enhance the model's ability to distinguish subtle features in chest X-ray images for more accurate pneumonia detection.
